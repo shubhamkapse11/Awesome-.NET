@@ -1,0 +1,71 @@
+# Ignore Visual Studio temporary files, build results, and user-specific files.
+
+## Build folders
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider
+.idea/
+*.sln.iml
+
+## ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+## Visual Studio Code
+.vscode/
+.history/
+
+## OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Logs
+*.log
+
+## Coverage results
+*.coverage
+*.coveragexml
+*.testscoverage
+coverage.*
+
+## Test results
+TestResults/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## Publish outputs
+*.Publish.xml
+
+## Build and generated files
+*.cache
+*.ilk
+*.pdb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+*.err
+*.vsp
+*.vspx
+*.sap
+GeneratedMSBuildEditorConfig.editorconfig
+project.assets.json
+
+# Keep appsettings files in source control unless you intentionally want a local-only config.
+# Do not ignore appsettings.json or appsettings.Development.json by default.
